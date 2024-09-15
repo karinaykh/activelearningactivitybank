@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.alert {
+    background-color: #e9ecef;
+    border-color: #ced4da;
+    color: #495057;
+}
+
+/* Updated card styles */
+.card {
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+}
+
+/* Added hover effect */
+.card:hover {
+    transform: translateY(-5px) scale(1.02) !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.card-tags span {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
