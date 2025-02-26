@@ -511,33 +511,33 @@ const activities = [
               "Extend the activity by using the personas to design a product or service"
             ]
           },
-          {
-            title: "Prime Numbers Challenge",
-            icon: "🔢",
-            tags: ["individual", "understand", "apply"],
-            durationCategory: "Student-Created Activities",
-            author: "Spring24-T01-MT03",
-            duration: "30 minutes",
-            format: "Individual",
-            shortDescription: "Students write Python code to identify prime numbers, practicing loop implementation.",
-            description: "Students practice using loops in Python to identify prime numbers between 1 and 101.",
-            materialsNeeded: [
-              "Computer with Python IDE or online Python editor"
-            ],
-            steps: [
-              "Introduce the concept of prime numbers and how loops can be used to identify them (5 minutes)",
-              "Provide the task instructions to the students",
-              "Students implement the code using either a \"for loop\" or \"while loop\" (15 minutes)",
-              "Circulate to assist and debug as needed (5 minutes)",
-              "Review the solutions as a class, discussing different approaches (5 minutes)"
-            ],
-            variations: [
-              "Modify the range of numbers to increase or decrease difficulty",
-              "Challenge students to optimize their code for efficiency",
-              "Extend the activity to identify twin primes or prime factorization"
-            ]
-          }
-            {
+        {
+          title: "Prime Numbers Challenge",
+          icon: "🔢",
+          tags: ["individual", "understand", "apply"],
+          durationCategory: "Student-Created Activities",
+          author: "Spring24-T01-MT03",
+          duration: "30 minutes",
+          format: "Individual",
+          shortDescription: "Students write Python code to identify prime numbers, practicing loop implementation.",
+          description: "Students practice using loops in Python to identify prime numbers between 1 and 101.",
+          materialsNeeded: [
+            "Computer with Python IDE or online Python editor"
+          ],
+          steps: [
+            "Introduce the concept of prime numbers and how loops can be used to identify them (5 minutes)",
+            "Provide the task instructions to the students",
+            "Students implement the code using either a \"for loop\" or \"while loop\" (15 minutes)",
+            "Circulate to assist and debug as needed (5 minutes)",
+            "Review the solutions as a class, discussing different approaches (5 minutes)"
+          ],
+          variations: [
+            "Modify the range of numbers to increase or decrease difficulty",
+            "Challenge students to optimize their code for efficiency",
+            "Extend the activity to identify twin primes or prime factorization"
+          ]
+        },
+        {
           title: "Code Along: Recursive Functions",
           icon: "💻🔄",
           tags: ["pair", "understand", "apply"],
@@ -565,7 +565,7 @@ const activities = [
             "Add complexity by implementing error handling for negative inputs"
           ],
           tips: "Prepare a 'cheat sheet' with common commands and syntax for reference. Have TAs circulate to help students who fall behind. Consider programming-related accessibility needs."
-        }
+        },
         {
           title: "AI in Action",
           icon: "🤖🔍",
@@ -595,7 +595,7 @@ const activities = [
             "Extend with a debate on ethical considerations of AI use"
           ],
           tips: "Ensure tasks are appropriately challenging but achievable. Provide clear evaluation criteria for analyzing AI performance. Prepare backup plans in case of technical issues."
-        }
+        },
         {
           title: "Math Competition: AI vs Humans",
           icon: "🧮🤖",
@@ -627,7 +627,7 @@ const activities = [
             "Include problems designed to challenge AI's current limitations"
           ],
           tips: "Select problems that showcase both AI strengths and weaknesses. Emphasize that the goal is not just to see who 'wins' but to understand different approaches to problem-solving."
-        }
+        },
         {
           title: "Organelle Role-Play",
           icon: "🔬🎭",
@@ -661,6 +661,4 @@ const activities = [
           tips: "Encourage creative yet scientifically sound responses. Remind students that while there may not be strict right/wrong answers, their analysis should be logically justified based on known organelle functions."
         }
         ];
-
-
     // Include other activities here following the same structure
