@@ -511,154 +511,154 @@ const activities = [
               "Extend the activity by using the personas to design a product or service"
             ]
           },
-        {
-          title: "Prime Numbers Challenge",
-          icon: "🔢",
-          tags: ["individual", "understand", "apply"],
-          durationCategory: "Student-Created Activities",
-          author: "Spring24-T01-MT03",
-          duration: "30 minutes",
-          format: "Individual",
-          shortDescription: "Students write Python code to identify prime numbers, practicing loop implementation.",
-          description: "Students practice using loops in Python to identify prime numbers between 1 and 101.",
-          materialsNeeded: [
-            "Computer with Python IDE or online Python editor"
-          ],
-          steps: [
-            "Introduce the concept of prime numbers and how loops can be used to identify them (5 minutes)",
-            "Provide the task instructions to the students",
-            "Students implement the code using either a \"for loop\" or \"while loop\" (15 minutes)",
-            "Circulate to assist and debug as needed (5 minutes)",
-            "Review the solutions as a class, discussing different approaches (5 minutes)"
-          ],
-          variations: [
-            "Modify the range of numbers to increase or decrease difficulty",
-            "Challenge students to optimize their code for efficiency",
-            "Extend the activity to identify twin primes or prime factorization"
-          ]
-        },
-        {
-          title: "Code Along: Recursive Functions",
-          icon: "💻🔄",
-          tags: ["pair", "understand", "apply"],
-          durationCategory: "Quick Activities (5-15 minutes)",
-          author: "Fall24-T01-MT07",
-          duration: "10 minutes",
-          format: "Individual coding with instructor guidance",
-          shortDescription: "Students implement a recursive function while following along with the instructor, applying theoretical concepts in real-time.",
-          description: "Students implement a recursive function (factorial) in a programming environment while following along with the instructor, applying theoretical concepts in real-time.",
-          whyUseIt: "Provides hands-on practice with coding concepts, reinforces understanding through application, allows immediate feedback and correction.",
-          materialsNeeded: [
-            "Programming environment (e.g., Programiz)",
-            "Visual aids showing factorial definition and recursive structure",
-            "Polling tool for interactive questions (e.g., Mentimeter)"
-          ],
-          steps: [
-            "Set up the coding environment and explain the goal (2 minutes)",
-            "Conduct interactive questioning about recursive concepts using polling tools (2 minutes)",
-            "Guide students through implementing the factorial function step-by-step (4 minutes)",
-            "Debrief by discussing challenges and common mistakes (2 minutes)"
-          ],
-          variations: [
-            "Adapt for different programming languages",
-            "Use different recursive problems (Fibonacci sequence, etc.)",
-            "Add complexity by implementing error handling for negative inputs"
-          ],
-          tips: "Prepare a 'cheat sheet' with common commands and syntax for reference. Have TAs circulate to help students who fall behind. Consider programming-related accessibility needs."
-        },
-        {
-          title: "AI in Action",
-          icon: "🤖🔍",
-          tags: ["group", "apply", "evaluate"],
-          durationCategory: "Medium Activities (15-30 minutes)",
-          author: "Fall24-T05-MT07",
-          duration: "20-25 minutes",          
-          format: "Small group exploration and presentation",
-          shortDescription: "Students work in groups to experiment with AI tools for specific tasks, then analyze performance and share insights.",
-          description: "Students work in groups to use different AI agents for assigned tasks, analyze their performance, and present findings to the class.",
-          whyUseIt: "Provides hands-on experience with AI tools, encourages critical thinking about AI capabilities and limitations, fosters collaborative learning.",
-          materialsNeeded: [
-            "Access to AI platforms (e.g., Coze)",
-            "Task assignments for each group",
-            "Evaluation criteria for AI performance"
-          ],
-          steps: [
-            "Divide class into small groups and assign each an AI tool or task",
-            "Groups experiment with their assigned AI agents for the given task",
-            "Students document observations about AI performance and limitations",
-            "Groups present their findings to the class",
-            "Facilitate a class discussion on AI applications and limitations"
-          ],
-          variations: [
-            "Compare multiple AI tools on the same task",
-            "Focus on specific domains (writing, image generation, data analysis)",
-            "Extend with a debate on ethical considerations of AI use"
-          ],
-          tips: "Ensure tasks are appropriately challenging but achievable. Provide clear evaluation criteria for analyzing AI performance. Prepare backup plans in case of technical issues."
-        },
-        {
-          title: "Math Competition: AI vs Humans",
-          icon: "🧮🤖",
-          tags: ["group", "apply", "evaluate"],
-          durationCategory: "Medium Activities (15-30 minutes)",
-          duration: "20-30 minutes",
-          author: "Fall24-T05-MT07",
-          format: "Competitive group activity",
-          shortDescription: "Students compete with AI in solving math problems, then analyze the differences in approach and accuracy.",
-          description: "Groups solve math problems alongside AI tools, then compare solutions to understand AI's approach to logical problems, strengths, and limitations.",
-          whyUseIt: "Demonstrates AI capabilities in logical problem-solving, highlights differences between human and AI thinking processes, encourages critical analysis of technology.",
-          materialsNeeded: [
-            "Set of math problems of varying difficulty",
-            "Access to AI tools",
-            "Timing device",
-            "Worksheets for documenting solutions and observations"
-          ],
-          steps: [
-            "Divide students into groups and distribute math problems",
-            "Groups solve problems while also inputting them into AI tools",
-            "Students document both human and AI solutions, noting differences in approach",
-            "Compare accuracy and efficiency between human and AI methods",
-            "Groups present key observations about AI's performance and limitations",
-            "Class discussion on implications for AI use in educational settings"
-          ],
-          variations: [
-            "Use different types of problems (algebraic, geometric, word problems)",
-            "Add time pressure to test efficiency",
-            "Include problems designed to challenge AI's current limitations"
-          ],
-          tips: "Select problems that showcase both AI strengths and weaknesses. Emphasize that the goal is not just to see who 'wins' but to understand different approaches to problem-solving."
-        },
-        {
-          title: "Organelle Role-Play",
-          icon: "🔬🎭",
-          tags: ["group", "apply", "analyze", "create"],
-          durationCategory: "Medium Activities (15-30 minutes)",
-          author: "Fall24-T05-MT08",   
-          duration: "20-30 minutes",
-          format: "Small group role-play and case analysis",
-          shortDescription: "Student groups represent different cellular organelles and analyze how they would respond to a physiological challenge.",
-          description: "Student groups each represent a specific organelle and analyze how it would respond to a hypothetical scenario involving external toxins, applying their knowledge of cellular biology.",
-          whyUseIt: "Transforms abstract cellular concepts into tangible roles, encourages application of knowledge to novel situations, promotes collaborative problem-solving.",
-          materialsNeeded: [
-            "Organelle assignment cards (nucleus, mitochondria, endoplasmic reticulum, lysosomes, Golgi apparatus)",
-            "Scenario description handouts",
-            "Paper for documenting analysis",
-            "Reference materials on organelle functions (optional)"
-          ],
-          steps: [
-            "Divide students into groups of four",
-            "Randomly assign each group an organelle to represent",
-            "Present the hypothetical scenario: 'A cell is attacked by external toxins'",
-            "Groups discuss and document how their assigned organelle would respond",
-            "Each group presents their analysis to the class",
-            "Facilitate discussion on integrated cellular responses and knowledge application"
-          ],
-          variations: [
-            "Use different scenarios (viral infection, temperature change, nutrient deprivation)",
-            "Extend to include interactions between organelles",
-            "Add a visual component where groups create diagrams of their organelle's response"
-          ],
-          tips: "Encourage creative yet scientifically sound responses. Remind students that while there may not be strict right/wrong answers, their analysis should be logically justified based on known organelle functions."
-        }
+            {
+              title: "Prime Numbers Challenge",
+              icon: "🔢",
+              tags: ["individual", "understand", "apply"],
+              durationCategory: "Student-Created Activities",
+              author: "Spring24-T01-MT03",
+              duration: "30 minutes",
+              format: "Individual",
+              shortDescription: "Students write Python code to identify prime numbers, practicing loop implementation.",
+              description: "Students practice using loops in Python to identify prime numbers between 1 and 101.",
+              materialsNeeded: [
+                "Computer with Python IDE or online Python editor"
+              ],
+              steps: [
+                "Introduce the concept of prime numbers and how loops can be used to identify them (5 minutes)",
+                "Provide the task instructions to the students",
+                "Students implement the code using either a \"for loop\" or \"while loop\" (15 minutes)",
+                "Circulate to assist and debug as needed (5 minutes)",
+                "Review the solutions as a class, discussing different approaches (5 minutes)"
+              ],
+              variations: [
+                "Modify the range of numbers to increase or decrease difficulty",
+                "Challenge students to optimize their code for efficiency",
+                "Extend the activity to identify twin primes or prime factorization"
+              ]
+            },
+            {
+              title: "Code Along: Recursive Functions",
+              icon: "💻🔄",
+              tags: ["pair", "understand", "apply"],
+              durationCategory: "Quick Activities (5-15 minutes)",
+              author: "Fall24-T01-MT07",
+              duration: "10 minutes",
+              format: "Individual coding with instructor guidance",
+              shortDescription: "Students implement a recursive function while following along with the instructor, applying theoretical concepts in real-time.",
+              description: "Students implement a recursive function (factorial) in a programming environment while following along with the instructor, applying theoretical concepts in real-time.",
+              whyUseIt: "Provides hands-on practice with coding concepts, reinforces understanding through application, allows immediate feedback and correction.",
+              materialsNeeded: [
+                "Programming environment (e.g., Programiz)",
+                "Visual aids showing factorial definition and recursive structure",
+                "Polling tool for interactive questions (e.g., Mentimeter)"
+              ],
+              steps: [
+                "Set up the coding environment and explain the goal (2 minutes)",
+                "Conduct interactive questioning about recursive concepts using polling tools (2 minutes)",
+                "Guide students through implementing the factorial function step-by-step (4 minutes)",
+                "Debrief by discussing challenges and common mistakes (2 minutes)"
+              ],
+              variations: [
+                "Adapt for different programming languages",
+                "Use different recursive problems (Fibonacci sequence, etc.)",
+                "Add complexity by implementing error handling for negative inputs"
+              ],
+              tips: "Prepare a 'cheat sheet' with common commands and syntax for reference. Have TAs circulate to help students who fall behind. Consider programming-related accessibility needs."
+            },
+            {
+              title: "AI in Action",
+              icon: "🤖🔍",
+              tags: ["group", "apply", "evaluate"],
+              durationCategory: "Medium Activities (15-30 minutes)",
+              author: "Fall24-T05-MT07",
+              duration: "20-25 minutes",          
+              format: "Small group exploration and presentation",
+              shortDescription: "Students work in groups to experiment with AI tools for specific tasks, then analyze performance and share insights.",
+              description: "Students work in groups to use different AI agents for assigned tasks, analyze their performance, and present findings to the class.",
+              whyUseIt: "Provides hands-on experience with AI tools, encourages critical thinking about AI capabilities and limitations, fosters collaborative learning.",
+              materialsNeeded: [
+                "Access to AI platforms (e.g., Coze)",
+                "Task assignments for each group",
+                "Evaluation criteria for AI performance"
+              ],
+              steps: [
+                "Divide class into small groups and assign each an AI tool or task",
+                "Groups experiment with their assigned AI agents for the given task",
+                "Students document observations about AI performance and limitations",
+                "Groups present their findings to the class",
+                "Facilitate a class discussion on AI applications and limitations"
+              ],
+              variations: [
+                "Compare multiple AI tools on the same task",
+                "Focus on specific domains (writing, image generation, data analysis)",
+                "Extend with a debate on ethical considerations of AI use"
+              ],
+              tips: "Ensure tasks are appropriately challenging but achievable. Provide clear evaluation criteria for analyzing AI performance. Prepare backup plans in case of technical issues."
+            },
+            {
+              title: "Math Competition: AI vs Humans",
+              icon: "🧮🤖",
+              tags: ["group", "apply", "evaluate"],
+              durationCategory: "Medium Activities (15-30 minutes)",
+              duration: "20-30 minutes",
+              author: "Fall24-T05-MT07",
+              format: "Competitive group activity",
+              shortDescription: "Students compete with AI in solving math problems, then analyze the differences in approach and accuracy.",
+              description: "Groups solve math problems alongside AI tools, then compare solutions to understand AI's approach to logical problems, strengths, and limitations.",
+              whyUseIt: "Demonstrates AI capabilities in logical problem-solving, highlights differences between human and AI thinking processes, encourages critical analysis of technology.",
+              materialsNeeded: [
+                "Set of math problems of varying difficulty",
+                "Access to AI tools",
+                "Timing device",
+                "Worksheets for documenting solutions and observations"
+              ],
+              steps: [
+                "Divide students into groups and distribute math problems",
+                "Groups solve problems while also inputting them into AI tools",
+                "Students document both human and AI solutions, noting differences in approach",
+                "Compare accuracy and efficiency between human and AI methods",
+                "Groups present key observations about AI's performance and limitations",
+                "Class discussion on implications for AI use in educational settings"
+              ],
+              variations: [
+                "Use different types of problems (algebraic, geometric, word problems)",
+                "Add time pressure to test efficiency",
+                "Include problems designed to challenge AI's current limitations"
+              ],
+              tips: "Select problems that showcase both AI strengths and weaknesses. Emphasize that the goal is not just to see who 'wins' but to understand different approaches to problem-solving."
+            },
+            {
+              title: "Organelle Role-Play",
+              icon: "🔬🎭",
+              tags: ["group", "apply", "analyze", "create"],
+              durationCategory: "Medium Activities (15-30 minutes)",
+              author: "Fall24-T05-MT08",   
+              duration: "20-30 minutes",
+              format: "Small group role-play and case analysis",
+              shortDescription: "Student groups represent different cellular organelles and analyze how they would respond to a physiological challenge.",
+              description: "Student groups each represent a specific organelle and analyze how it would respond to a hypothetical scenario involving external toxins, applying their knowledge of cellular biology.",
+              whyUseIt: "Transforms abstract cellular concepts into tangible roles, encourages application of knowledge to novel situations, promotes collaborative problem-solving.",
+              materialsNeeded: [
+                "Organelle assignment cards (nucleus, mitochondria, endoplasmic reticulum, lysosomes, Golgi apparatus)",
+                "Scenario description handouts",
+                "Paper for documenting analysis",
+                "Reference materials on organelle functions (optional)"
+              ],
+              steps: [
+                "Divide students into groups of four",
+                "Randomly assign each group an organelle to represent",
+                "Present the hypothetical scenario: 'A cell is attacked by external toxins'",
+                "Groups discuss and document how their assigned organelle would respond",
+                "Each group presents their analysis to the class",
+                "Facilitate discussion on integrated cellular responses and knowledge application"
+              ],
+              variations: [
+                "Use different scenarios (viral infection, temperature change, nutrient deprivation)",
+                "Extend to include interactions between organelles",
+                "Add a visual component where groups create diagrams of their organelle's response"
+              ],
+              tips: "Encourage creative yet scientifically sound responses. Remind students that while there may not be strict right/wrong answers, their analysis should be logically justified based on known organelle functions."
+            }
         ];
     // Include other activities here following the same structure
